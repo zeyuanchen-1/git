@@ -9,4 +9,5 @@ test
 git add就是把工作区修改后的文件放到了暂存区,然后git commit就是把暂存区的所有内容一次性都放到仓库里
 想撤销修改时,可用git status来查看版本,并根据提示进行相应的操作
 origin相当于是远程仓库的别名,git push -u origin master意思就是把master分支推送给远程仓库,因为是通过ssh连接,所以必须把本地仓库的公钥给远程仓库
+git pull 可以把本地仓库更新为默认远程仓库内容
 
