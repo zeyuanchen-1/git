@@ -1,2 +1,7 @@
 learn git
 continue 
+test
+果然只有没有被add,commit过的txt文件才能diff出来
+一次可以add多个文件,然后commit会把add的所有文件提交
+被提交的文件就无法在diff了
+看git status也会说没有可更新的文件
