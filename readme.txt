@@ -11,4 +11,9 @@ git add就是把工作区修改后的文件放到了暂存区,然后git commit�
 origin相当于是远程仓库的别名,git push -u origin master意思就是把master分支推送给远程仓库,因为是通过ssh连接,所以必须把本地仓库的公钥给远程仓库
 git pull 可以把本地仓库更新为默认远程仓库内容
 分支的作用在于在不影响组内其他成员的情况下,还在远程仓库更新了自己的版本
+git branch 查看所有分支,当前分支会带个星号
+git branch dev创建新的分支dev
+git checkout master当前分支变为master
+git merge dev将当前分支提到与dev分支一样
+git branch -d dev删除dev分支
 
